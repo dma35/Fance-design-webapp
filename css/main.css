@@ -1,0 +1,282 @@
+/*HEADER STYLES-----------------------------*/
+header{
+	background: #2f4f4f;
+	float: left;
+	width: 100%;
+	color: #fff; 
+	padding-left: 15px;
+	position: relative;
+}
+
+.tagling{
+	font-style: italic;
+	font-size: .8em;
+	padding-left: 20px; 
+}
+
+header nav{
+	float: right;
+}
+
+header h1{
+	display: inline-block;
+}
+
+/*HEADER NAV STYLES------------------------*/
+
+.header-links li{
+	
+	display: inline-block;
+	padding: 10px;
+	
+}
+header nav a{
+	padding: 25px 10px 35px 10px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+header nav a:hover{
+    color: #000;
+	background: #2f4949;
+	border-top: 5px solid #ff8c00;
+}
+
+header .active-link{
+	color: #000;
+	background: #2f4949;
+	border-top: 10px solid #ff8c00;
+}
+
+/*BODY STYLES------------------------*/
+body{
+	font: 1em;
+	margin:0;
+	height: 100%;
+/*	background: green;*/
+}
+
+/*SUB-BODY STYLES------------------------*/
+#sub-body{
+	padding-top: 200px;
+	text-align: center;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	color: ghostwhite;
+	background: linear-gradient(#008080, transparent),
+				linear-gradient(0deg, #fff, transparent),
+				#ffa949 url('../img/frost.jpg') no-repeat center;
+}
+
+
+.fance-title{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: cursive;
+	padding-top: 0;
+	margin: 0;
+/*	line-height: .5;*/
+}
+
+.fance{
+	width: 35%;
+	margin-left: 30%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 60px;
+	color: white;
+	padding: 20px;
+	line-height: .2;
+	border-top: 6px dotted #2f4949;
+	border-bottom: 6px dotted #2f4949;
+
+	
+}
+
+
+/*MAIN-CONTENT STYLES------------------------*/
+#main-content{
+	box-shadow: -10px 10px 50px 20px rgba(0,0,2, .2);
+	height: 500px;
+	width: 800px ;
+	margin-left: 20%;
+	border-top: 6px solid #2f4f4f;
+	
+}
+#main-content h2{
+	text-transform: uppercase;
+}
+
+#primary-body{
+	margin-top: 20px;
+	border-top: 2px dotted darkslategrey;
+	}
+
+.primary-body{
+	float: left;
+	width: 20%;
+	padding: 1.5%;
+	padding-top: 5px;
+	padding-bottom: 0;
+	margin: 20px 0 0 8px;
+/*	border: 2px solid orange;*/
+	font-family: sans-serif;
+	font-size: 10px;
+	
+}
+
+.primary-body img{
+	height: 60px;
+	width: 60px;
+		
+}
+
+.primary-body span{
+	margin-top: 50px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.top-space{
+	
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+
+#secondary-body{
+	clear: both;
+	border-top: 2px dotted darkslategrey;
+	
+}
+
+.viewMore{
+	border-radius: 10px;
+	box-shadow: -10px 10px 50px 20px rgba(0,0,2, .2);
+	background-color: #2f4f4f;
+	border: 2px solid #2f4f4f;
+	margin-bottom: 10px;
+		
+}
+
+.viewMore a{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+button:hover{
+	background: #008000;
+	border: 2px solid #008000;
+}
+
+.image img{
+	width: 160px;
+	height: 150px;
+	padding: none;
+}
+
+/*FOOTER STYLES------------------------*/
+#main-footer{
+	background: #2f4f4f;
+	color: white;
+	padding-left: 10px;
+	font-family: fantasy;
+	border-top: 3.5px solid orange;
+	font-size: 12px;
+	margin-bottom: none;
+}
+.primary-footer{
+	float: left;
+	width: 30%;
+	padding-right: 3.3333%;
+}
+
+
+#main-footer ul {
+	display: inline;
+	
+}
+
+.footer-links li{
+	display: inline-block;
+	text-align: left;
+	padding: 0 0 5px;
+	
+}
+.secondary-footer{
+	padding-left: 750px;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.social-icons{
+	height: 30px;
+	width: 30px;
+}
+
+footer nav a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer nav a:hover{
+	color: black;
+}
+
+footer h3{
+	font-family:cursive;
+	font-size: 14px;
+	text-transform:uppercase;
+}
+
+
+/*MEDIA STYLES*/
+@media (max-width: 800px) {
+	header h1{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	
+	header nav{
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	
+	header{
+		width: 100%;
+		text-align: center;
+		border-bottom: 5px solid black;
+		height: 150px;
+	}
+	
+	header nav a {
+		padding: 25px 10px 45px 10px;
+	}
+	
+	footer nav {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.fance{
+		text-align: left;
+		width: 500px;
+		border: none;
+	}
+		
+}
+
+#overlay{
+	background: black;
+	height: 100%;
+	width: 100%;
+}
